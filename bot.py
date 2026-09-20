@@ -21,14 +21,14 @@ from aiogram.types import (
 )
 
 # ==================== CẤU HÌNH ====================
-BOT_TOKEN = "YOUR_NEW_BOT_TOKEN"          # Token mới từ BotFather
+BOT_TOKEN = "8919674640:AAFqp_9oUOfoj_fuZFhBGwjriOdH6h4tcJY"
 YEUMONEY_TOKEN = "7787eb1815ffb5a7712eb4f146dcfa19a72c7c79434b5a3aab94bbfde9fdfe7c"
-ADMIN_IDS = [123456789]                   # Thay bằng Telegram ID của bạn (số)
+ADMIN_IDS = [7272729673]                   # Thay bằng Telegram ID của bạn (số)
 
 REWARD_PER_LINK = 380                     # điểm / link
-MIN_WITHDRAW = 100_000                    # rút tối thiểu
+MIN_WITHDRAW = 50_000                    # rút tối thiểu
 WAIT_SECONDS = 45                         # phải chờ ít nhất 45s mới claim
-DAILY_LIMIT = 30                          # tối đa nhiệm vụ / ngày
+DAILY_LIMIT = 100                          # tối đa nhiệm vụ / ngày
 DB_PATH = "bot_data.db"
 
 # Link đích mặc định khi tạo shortlink (có thể đổi)
